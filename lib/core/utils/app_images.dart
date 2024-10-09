@@ -10,6 +10,10 @@ class Assets {
   /// assets/images/backgroundCard.png
   static const String imagesBackgroundCard = "assets/images/backgroundCard.png";
 
+  /// Assets for imagesDart
+  /// assets/images/dart.png
+  static const String imagesDart = "assets/images/dart.png";
+
   /// Assets for imagesEn
   /// assets/images/en.jpg
   static const String imagesEn = "assets/images/en.jpg";
@@ -38,9 +42,25 @@ class Assets {
   /// assets/images/new_logo.png
   static const String imagesNewLogo = "assets/images/new_logo.png";
 
+  /// Assets for imagesNewLogo2
+  /// assets/images/new_logo2.png
+  static const String imagesNewLogo2 = "assets/images/new_logo2.png";
+
+  /// Assets for imagesNewLogo3
+  /// assets/images/new_logo3.png
+  static const String imagesNewLogo3 = "assets/images/new_logo3.png";
+
   /// Assets for imagesNotifications
   /// assets/images/notifications.png
   static const String imagesNotifications = "assets/images/notifications.png";
+
+  /// Assets for imagesProgrammingAmico
+  /// assets/images/Programming-amico.png
+  static const String imagesProgrammingAmico = "assets/images/Programming-amico.png";
+
+  /// Assets for imagesPy
+  /// assets/images/py.png
+  static const String imagesPy = "assets/images/py.png";
 
   /// Assets for imagesRegister
   /// assets/images/register.png
@@ -57,6 +77,14 @@ class Assets {
   /// Assets for imagesStart
   /// assets/images/start.png
   static const String imagesStart = "assets/images/start.png";
+
+  /// Assets for imagesStudent
+  /// assets/images/student.png
+  static const String imagesStudent = "assets/images/student.png";
+
+  /// Assets for imagesTeacher
+  /// assets/images/teacher.jpg
+  static const String imagesTeacher = "assets/images/teacher.jpg";
 
   /// Assets for imagesVerification
   /// assets/images/verification.png

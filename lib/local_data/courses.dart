@@ -4,16 +4,16 @@ import 'package:edu_ui/core/utils/app_images.dart';
 List<CourseModel> localCourses = [
   CourseModel(
     lessons: [
-      'https://youtu.be/IeaadwctbD4?si=LHg250P0Mn-GCJMY',
-      "https://youtu.be/S2lFmQcXsM4?si=YI7r90hO0Jlf8J__",
-      "https://youtu.be/Hbcn940MG6A?si=I9ZM2Suvu44mIyNA",
+      'https://www.youtube.com/watch?v=Gd97ql0gW9Q&list=PLeKQz1VjpjFqqXLvQ8rTnYxZcUqEGA0dm',
+      "https://www.youtube.com/watch?v=Gd97ql0gW9Q&list=PLeKQz1VjpjFqqXLvQ8rTnYxZcUqEGA0dm",
+      "https://www.youtube.com/watch?v=Gd97ql0gW9Q&list=PLeKQz1VjpjFqqXLvQ8rTnYxZcUqEGA0dm",
     ],
     code: '0',
     price: 'Free',
     creator: "T.Gamal",
-    title: 'course for kids ',
-    subTitle: 'English Course Level 0',
-    image: Assets.imagesEn,
+    title: 'Dart Programing Language',
+    subTitle: 'Dart is Amazing Language ',
+    image: Assets.imagesDart,
   ),
   CourseModel(
     lessons: [
@@ -23,22 +23,33 @@ List<CourseModel> localCourses = [
     code: '1',
     price: 'Free',
     creator: "A.Ali",
-    title: "Science for Level 2",
+    title: "Introduction To Computer",
     subTitle:
-        "interactive journey into the world aims to make learning math fun and engaging",
-    image: Assets.imagesSci,
+        "fundamental concepts related to computers.",
+    image: Assets.imagesProgrammingAmico,
   ),
   CourseModel(
     lessons: [
-      "https://youtu.be/_zvGmj5_nQI?si=rukkCFBO2qaK4KD4",
-      "https://youtu.be/_zvGmj5_nQI?si=rukkCFBO2qaK4KD4"
+      "https://youtu.be/eXBD2bB9-RA?si=Oe3-UD_i9v22t-eL",
+      "https://youtu.be/iv5m0c-8Opc?si=2Eh4Y_349vbp4LA6",
+      "https://youtu.be/tf3ezjeTpfI?si=xxzbSSy_CqNRng9U"
+
     ],
     code: '12',
     price: 'Free',
     creator: "H.Adel",
-    title: "Math",
-    subTitle:
-        "Welcome to Math Adventures for Kids, ",
-    image: Assets.imagesMath,
+    title: "Python Programing Language",
+    subTitle: "Python is easy  to learn and fun to use",
+
+    image: Assets.imagesPy,
+  ),
+  CourseModel(
+    lessons: ['https://youtu.be/8jLOx1hD3_o?si=OQAU9pE_9hFiwHBK'],
+    code: '12',
+    price: 'Free',
+    creator: "H.Adel",
+    title: "C++ Programing Language",
+    subTitle: "C++ is a versatile and powerful language.",
+    image: Assets.imagesProgrammingAmico,
   ),
 ];

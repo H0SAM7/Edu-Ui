@@ -2,9 +2,13 @@ import 'package:edu_ui/features/Notifications/services/send_notifications_view.d
 import 'package:edu_ui/features/Notifications/views/notifi_view.dart';
 import 'package:edu_ui/features/admin/views/delete_course_view.dart';
 import 'package:edu_ui/features/admin/views/update_course_view.dart';
+import 'package:edu_ui/features/attendence/views/attend_view.dart';
 import 'package:edu_ui/features/home/views/course_content_view.dart';
+import 'package:edu_ui/features/live/view/chat_view.dart';
+import 'package:edu_ui/features/live/view/meeting_view.dart';
 import 'package:edu_ui/features/quiz/views/attemp_quiz_view.dart';
 import 'package:edu_ui/features/quiz/views/quiz_result_view.dart';
+import 'package:edu_ui/temp/test.dart';
 import 'package:flutter/widgets.dart';
 import 'package:edu_ui/features/admin/views/add_course_view.dart';
 import 'package:edu_ui/features/admin/views/add_quiz_view.dart';
@@ -19,8 +23,10 @@ import 'package:edu_ui/features/video/views/video_view.dart';
 import 'package:flutter/material.dart';
 
 abstract class AppRoutes {
-  static String? initialRoute = StartView.id;
+  static String? initialRoute = BottomNavigator.id;
   static Map<String, Widget Function(BuildContext)> routes = {
+    BottomNavigator.id: (context) => const BottomNavigator(),
+
     HomeView.id: (context) => const HomeView(),
     CourseContentView.id: (context) => const CourseContentView(),
     VideoView.id: (context) => const VideoView(),
@@ -32,7 +38,6 @@ abstract class AppRoutes {
     VerificationView.id: (context) => const VerificationView(),
     AddCourseView.id: (context) => const AddCourseView(),
     PlayVideoFromYoutube.id: (context) => const PlayVideoFromYoutube(),
-    BottomNavigator.id: (context) => const BottomNavigator(),
     AddQuizView.id: (context) => const AddQuizView(),
     NotifiView.id: (context) => const NotifiView(),
     AttempQuizView.id: (context) => const AttempQuizView(),
@@ -41,5 +46,8 @@ abstract class AppRoutes {
     UpdateCourseView.id: (context) => const UpdateCourseView(),
     UpdateCourseView.id: (context) => const UpdateCourseView(),
     DeleteCourseView.id: (context) => const DeleteCourseView(),
+    ChatScreen.id: (context) => const ChatScreen(),
+    AttendanceScreen.id: (context) => AttendanceScreen(),
+    Meeting.id: (context) => Meeting(),
   };
 }
